@@ -1,0 +1,32 @@
+/*#include<iostream>
+#include<cassert>
+#include"Teste.h"
+
+void TestZbor() {
+	char nume_1[7] = "Michal";
+	char nume_2[8] = "Jackson";
+	char nume_set[10] = "Bethoven";
+
+	Zbor z1(1, nume_1, 1);
+	Zbor z2(1, nume_2, 2);
+	z2.setNume(nume_set);
+	z2.setLoc(100);
+	z2.setNr(10);
+
+	assert(strcmp(z1.getNume(), nume_1) == 0);
+	assert(z1.getNr() == 1);
+	assert(z1.getLoc() == 1);
+	assert(strcmp(z2.getNume(), nume_set) == 0);
+	assert(z2.getLoc() == 100);
+	assert(z2.getNr() == 10);
+}
+
+void TestRepo() {
+	char nume_1[7] = "Michal";
+
+	Repository<Zbor> R = "TestRepoIn.txt";
+	Zbor z1(1, nume_1, 1);
+	R.Add(z1);
+
+	assert(R.getSize() == 1);
+}*/
